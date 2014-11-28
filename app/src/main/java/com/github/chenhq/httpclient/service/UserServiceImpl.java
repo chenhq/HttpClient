@@ -35,8 +35,8 @@ public class UserServiceImpl implements UserService {
          * proxy setting
          */
 
-        HttpHost proxy = new HttpHost("127.0.0.1", 8000);
-        client.getParams().setParameter(ConnRouteParams.DEFAULT_PROXY, proxy);
+//        HttpHost proxy = new HttpHost("127.0.0.1", 8000);
+//        client.getParams().setParameter(ConnRouteParams.DEFAULT_PROXY, proxy);
 
         String responseBody = client.execute(get, responseHandle);
         Log.i(TAG, responseBody);

@@ -16,10 +16,11 @@ import android.widget.Toast;
 import com.github.chenhq.httpclient.service.ServiceRulesException;
 import com.github.chenhq.httpclient.service.UserService;
 import com.github.chenhq.httpclient.service.UserServiceImpl;
+//import com.github.stephanenicolas.loglifecycle.LogLifeCycle;
 
 import java.lang.ref.WeakReference;
 
-
+//@LogLifeCycle
 public class MainActivity extends ActionBarActivity {
 
     private EditText edtUsername;
